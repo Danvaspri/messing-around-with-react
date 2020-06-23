@@ -57,12 +57,16 @@ class DishDetail extends Component {
         if (dish == null) {
             return (<div></div>)
         }
+       
         const dishItem = this.renderDish(dish)
-        const commentItem = this.renderComments(dish.comments)
+        const commentItem = this.renderComments(dish.comments);
+        
         return (
+            <div className="container">
             <div className='row'>
                 {dishItem}
                 {commentItem}
+            </div>
             </div>
         )
     }
