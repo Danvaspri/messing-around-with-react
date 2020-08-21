@@ -1,7 +1,6 @@
 .row-header{
     margin:0px auto;
     padding:0px auto;
-    background: ;
 }
 
 .row-content {
@@ -19,7 +18,7 @@
 .jumbotron {
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #9575CD !important;
+    background: #9575CD ;
     color:floralwhite;
 }
 
@@ -32,6 +31,7 @@ address{
 .navbar-dark {
     background-color: #512DA8;
 }
+
 .page-enter {
     opacity: 0.01;
     transform: translateX(-100%);
